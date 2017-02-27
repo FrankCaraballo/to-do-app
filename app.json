@@ -1,10 +1,10 @@
 {
   "name": "Start on Heroku: Node.js",
   "description": "Simple To do list app",
-  "repository": "https://github.com/FrankCaraballo/Javascript/to-do-list",
+  "repository": "https://github.com/FrankCaraballo/to-do-app.git",
 
   "keywords": ["node", "express", "mongodb"],
   "image": "heroku/nodejs"
 
-  
+
 }
