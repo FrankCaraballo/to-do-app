@@ -1,11 +1,11 @@
 {
   "name": "to-do-list",
   "version": "1.0.0",
-  "description": "simple to do list app",
+  "description": "simple to do list\tapp",
   "main": "app.js",
   "repository" : {
    "type" : "git",
-   "url" :  "git://github.com/FrankCaraballo/to-do-app.git"
+   "url" :  "git://hitgithub.com/FrankCaraballo/to-do-app.git"
  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

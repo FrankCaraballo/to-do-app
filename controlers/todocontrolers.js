@@ -1,15 +1,12 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-
-
 mongoose.Promise = global.Promise;
 //conect to data bodyParser
 mongoose.connect('mongodb://todo:todo@ds161099.mlab.com:61099/todolistfrank');
 
 //create schema
 var todoSchema = new mongoose.Schema({
-  item: String,
-  check: Boolean
+  item: String
 });
 
 var Todo = mongoose.model('Todo',todoSchema);
@@ -42,7 +39,6 @@ module.exports = function(app){
       if (err) throw err;
       res.json(data);
     });
-
 
       //data.push();
     //  res.json(data);

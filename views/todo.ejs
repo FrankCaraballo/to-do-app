@@ -1,7 +1,7 @@
 <html>
   <head>
     <tile></title>
-      <h1>Todo List
+
       <script
 			  src="https://code.jquery.com/jquery-1.12.4.min.js"
 			  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
@@ -12,25 +12,15 @@
 
       </head>
       <body>
+        <h1>Todo List</h1>
           <div id="todo-table">
             <form>
               <input type="text" name="item" placeholder="Add new Item..." required />
               <button type="submit">Add Item</button>
             </form>
             <ul>
-
               <% for (var i=0; i<todos.length; i++){%>
-
-<<<<<<< HEAD
-                  <li>
-
-                    <%= todos[i].item %>
-
-                  </li>
-=======
-                  <li>  <input type="checkbox" name="animal" value="Cat" />
-                    <%= todos[i].item %></li>
->>>>>>> parent of af05d0b... lastest
+                  <li><%= todos[i].item %></li>
 
               <%} %>
             </ul>
