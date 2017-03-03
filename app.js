@@ -1,5 +1,5 @@
 var express = require('express');
-var todocontroler = require('./controlers/todocontrolers');
+var todocontroler = require(__dirname +'./controlers/todocontrolers');
 var app= express();
 
 app.set('port', (process.env.PORT || 5000));
