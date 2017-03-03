@@ -8,8 +8,8 @@ app.set('port', (process.env.PORT || 5000));
 app.set('view engine','ejs');
 
 //static files
-app.use(express.static(__dirname +'./public'));
-
+//app.use(express.static(__dirname +'./public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 //execute controlers
 todocontroler(app);
