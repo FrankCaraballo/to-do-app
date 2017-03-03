@@ -2,7 +2,8 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 //conect to data bodyParser
-mongoose.connect('mongodb://todo:todo@ds161099.mlab.com:61099/todolistfrank');
+mongoose.connect('mongodb://todo:todo>@ds113660.mlab.com:13660/heroku_l4mjw9rt');
+
 
 //create schema
 var todoSchema = new mongoose.Schema({
