@@ -1,5 +1,5 @@
 var express = require('express');
-var todocontroler = require('./controlers/todocontrolers');
+var todocontroler = require(__dirname +'./controlers/todocontrolers');
 var app= express();
 
 app.set('port', (process.env.PORT || 5000));
@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 5000));
 app.set('view engine','ejs');
 
 //static files
-app.use(express.static('./public'));
+app.use(express.static(__dirname +'./public'));
 
 
 //execute controlers
