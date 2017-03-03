@@ -3,12 +3,7 @@
   "description": "Simple To do list app",
   "repository": "https://github.com/FrankCaraballo/to-do-app.git",
   "keywords": ["node", "express", "mongodb"],
-  "image": "heroku/nodejs",
-  "dependencies": {
-    "body-parser": "^1.16.1",
-    "ejs": "^2.5.6",
-    "express": "^4.14.1",
-    "mongoose": "^4.8.4"
+  "image": "heroku/nodejs"
   }
 
 
